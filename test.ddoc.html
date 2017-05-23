@@ -1,0 +1,34 @@
+<span class="ddoc-mode-comment-face">; main.ddoc</span>
+
+<span class="ddoc-mode-directive-face">#version</span> 4
+<span class="ddoc-mode-keyword-face">program
+ minorversion</span> 16
+ <span class="ddoc-mode-keyword-face">majorversion</span> 46
+
+ <span class="ddoc-mode-directive-face">#include</span> <span class="string">&quot;Test.script.ddoc&quot;</span>
+
+<span class="ddoc-mode-keyword-face">end</span> <span class="ddoc-mode-comment-face">; program
+
+; Test.script.ddoc</span>
+
+<span class="ddoc-mode-keyword-face">script
+ sinit
+  refid</span> <span class="string">&quot;Test/init&quot;</span>
+  <span class="ddoc-mode-keyword-face">body
+   maxstack</span> 1
+   <span class="ddoc-mode-keyword-face">localcount</span> 1
+   <span class="ddoc-mode-keyword-face">initscopedepth</span> 1
+   <span class="ddoc-mode-keyword-face">maxscopedepth</span> 2
+   <span class="ddoc-mode-keyword-face">code</span>
+    <span class="ddoc-mode-mnemonic-face">getlocal0
+    pushscope
+
+    pushbyte</span>            5
+    <span class="ddoc-mode-mnemonic-face">throw</span>
+
+    <span class="ddoc-mode-comment-face">; 0x47</span>
+   <span class="ddoc-mode-keyword-face">end</span> <span class="ddoc-mode-comment-face">; code</span>
+  <span class="ddoc-mode-keyword-face">end</span> <span class="ddoc-mode-comment-face">; body</span>
+ <span class="ddoc-mode-keyword-face">end</span> <span class="ddoc-mode-comment-face">; method</span>
+ <span class="ddoc-mode-keyword-face">trait slot</span> <span class="ddoc-mode-type-face">QName</span>(<span class="ddoc-mode-type-face">PackageNamespace</span>(<span class="string">&quot;&quot;</span>), <span class="string">&quot;Test&quot;</span>) <span class="ddoc-mode-keyword-face">slotid</span> 1 <span class="ddoc-mode-keyword-face">end
+end</span> <span class="ddoc-mode-comment-face">; script</span>
